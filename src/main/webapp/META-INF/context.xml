@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/TpFinalWeb">
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="unidadPersistencia1" password="" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/postgres" username="postgres"/>
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="connect" password="" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/postgres" username="postgres"/>
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="TpFinal" password="contra12" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/TpFinal" username="postgres"/>
+</Context>
